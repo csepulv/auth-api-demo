@@ -1,0 +1,16 @@
+{
+  "name": "aws-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create-api": "claudia create --region us-west-2  --api-module api --name auth-api-demo  --profile auth-api-demo",
+    "update-api": "claudia update --region us-west-2  --profile auth-api-demo",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "claudia-api-builder": "^4.1.1"
+  }
+}

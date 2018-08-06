@@ -1,0 +1,16 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.268.1",
+    "dotenv": "^6.0.0",
+    "node-fetch": "^2.1.2"
+  }
+}

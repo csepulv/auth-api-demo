@@ -1,0 +1,26 @@
+{
+  "name": "web-ui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@blueprintjs/core": "^2.3.1",
+    "@blueprintjs/icons": "^2.2.1",
+    "aws-amplify": "^0.4.8",
+    "aws4": "^1.7.0",
+    "history": "^4.7.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-transition-group": "^2.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "node-fetch": "^2.1.2"
+  }
+}

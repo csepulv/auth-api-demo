@@ -76,8 +76,6 @@ An outline of steps:
 
 ![](./docs/images/aws-cognito-pool-create_9.png)
 
-
-
 ### App Client Settings
 
 * Click **App client settings** in left sidebar

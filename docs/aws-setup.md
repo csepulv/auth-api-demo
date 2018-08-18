@@ -95,7 +95,7 @@ NOTE: If `aws.cognito.signin.user.admin` is enabled, a user could extract sessio
 
 ### Domain Name
 
-Select a custom subdomain (needs to be unique across AWS) or a custom domain
+Select a custom subdomain (needs to be unique across AWS) or a custom domain. We will use a subdomain, which is easier to setup. (More on custom domains can be found [here](https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-pools-add-custom-domain.html).)
 
 ![](./images/aws-cognito-domain-name.png)
 
@@ -112,6 +112,9 @@ Select a custom subdomain (needs to be unique across AWS) or a custom domain
 * Click **Create new role** for *Unauthenticated Role* and *Authenticated Role* ([Doc are here](https://docs.aws.amazon.com/cognito/latest/developerguide/identity-pools.html))
 
 ![](./images/aws-cognito-idenity-pool-settings.png)
+
+*Note*: We will also explicitly allow unauthenticated users. In this configuration, Cognito will assign authenticated users to one IAM role, and unauthenticated users to another IAM role.
+        It is isn't necessary to assign unauthenticated users to an IAM role. But if you want to have explicit control over unauthenticated user policy, via IAM vs. authenticated users, it can be useful.
 
 ## API Gateway
 
@@ -139,6 +142,8 @@ Select a custom subdomain (needs to be unique across AWS) or a custom domain
 * enter the name of the Usage Plan created earlier
 
 ![](./docs/images/aws-api-key.png)
+
+While API keys can used as an authentication mechanism, we will use it for policy enforcement. We will use AWS Cognito for authentication. As noted, the API key enables our throttle policy. We will simply use one API key for all requests - you could create an API key per user (using a Cognito triggers) or whatever key assignment scheme you'd like.
 
 ## IAM
 

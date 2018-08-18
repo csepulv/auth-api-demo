@@ -23,12 +23,12 @@ Here are some links to relevant security and microservice topics in AWS.
 * Using [Hosted/OAuth UI](https://aws-amplify.github.io/amplify-js/media/authentication_guide#using-amazon-cognito-hosted-ui)
 
 
-Non AWS
-## [Claudia.js](https://claudiajs.com/).
+## Non AWS
+### [Claudia.js](https://claudiajs.com/)
 * [Command Line](https://claudiajs.com/documentation.html)
 * [API Builder](https://claudiajs.com/claudia-api-builder.html)
 
-## Misc
+### Misc
 * [AWS4](https://www.npmjs.com/package/aws4) (signing AWS requests)
   * [AWS Signature V4 docs](https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html)
 

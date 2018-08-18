@@ -16,10 +16,12 @@ The ID will be in the area highlighted in yellow. (highlight is in picture only)
 
 ## Running the setup script
 
-* run `npm install` in scripts directory
+* run `npm install` in `scripts` directory
 * Copy `sample.env` to `.env`
 * Set AWS account id, credential file profile and region.
 * Set API Gateway API ID.
 * Pick and set a `BASE_NAME`.
 
 The `BASE_NAME` variable should be mixed case, without hyphens and without numbers. This will be used to create resource names.
+
+Now run `node create-resources.js` from the `scripts` directory.

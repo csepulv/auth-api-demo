@@ -5,6 +5,7 @@ Here are some links to relevant security and microservice topics in AWS.
 ## [AWS](https://aws.amazon.com/getting-started/)
 * Free [Udemy course](https://www.udemy.com/aws-essentials/)
 * [AWS Free Tier](https://aws.amazon.com/free/)
+* [ARNs](https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html)
 
 ## [Cognito](https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html)
 * [User Pools vs Identity Pools](https://codeburst.io/the-difference-between-aws-cognito-userpools-and-federated-identities-9b47571795d4?gi=c34509fe982c)
@@ -25,10 +26,11 @@ Here are some links to relevant security and microservice topics in AWS.
 ## [IAM](https://aws.amazon.com/iam/)
 * [Roles](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html)
 * [Temporary Credentials](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_request.html)
+
 ## [AWS Amplify](https://aws-amplify.github.io/amplify-js/index.html)
 * [Authentication Guide](https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html)
 * Using [Hosted/OAuth UI](https://aws-amplify.github.io/amplify-js/media/authentication_guide#using-amazon-cognito-hosted-ui)
-
+* [Hub](https://github.com/aws-amplify/amplify-js/blob/master/docs/media/hub_guide.md) class
 
 ## Non AWS
 ### [Claudia.js](https://claudiajs.com/)

@@ -1,0 +1,5 @@
+# Alternate Authentication Approaches
+There are a few other options for authentication, such as
+* API keys: This can work, but API key management is something you will be responsible for. AWS will not manage the keys automatically.
+* [Cognito Authorizer](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-integrate-with-cognito.html): this directly authorizes against membership in the user pool, eliminating the need for the Federated Identity Pool. The user will not be assigned temporary credentials and IAM integration, which may or may not be significant for your application.
+* [Custom Authorizers](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-use-lambda-authorizer.html): This involves custom code to handle custom needs. An example would be [Auth0](https://auth0.com/) integration. Auth0 has some good posts on [Cognito](https://auth0.com/blog/building-serverless-apps-with-aws-lambda/) integration and the [API Gateway](https://auth0.com/docs/integrations/aws-api-gateway/custom-authorizers).

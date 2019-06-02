@@ -61,6 +61,7 @@ An outline of steps:
 
 
 * specify or create an application client (can also be done later)
+* NOTE: don't check the "Generate client secret" checkbox
 
 ![](./images/aws-cognito-pool-create_7.png)
 

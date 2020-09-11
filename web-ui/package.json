@@ -21,6 +21,6 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "node-fetch": "^2.1.2"
+    "node-fetch": "^2.6.1"
   }
 }
